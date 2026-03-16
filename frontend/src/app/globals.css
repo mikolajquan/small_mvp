@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&family=DM+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Playfair Display';
+  --font-body:    'DM Sans';
+  --font-mono:    'DM Mono';
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  background: #F5F2EB;
+  color: #0D0D0D;
+  font-family: var(--font-body), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* scrollbar */
+::-webkit-scrollbar       { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #C8C4BB; border-radius: 3px; }
+
+/* focus ring */
+*:focus-visible { outline: 2px solid #5C7A5C; outline-offset: 2px; }
