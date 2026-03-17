@@ -2,6 +2,8 @@
 
 A full-stack task/booking manager with a Next.js frontend and a Node.js/Express + PostgreSQL backend, all in one repository.
 
+I built this project using Next.js for server-side rendering and faster page loads. I chose Tailwind CSS for styling because it allows rapid UI development without switching between files. The state is managed using React Context to keep it simple, since the app is small. I structured the code by feature (not by file type) to make it easier to scale.
+
 ---
 
 ## Tech Stack
